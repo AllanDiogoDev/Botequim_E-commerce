@@ -10,4 +10,13 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 body{
     background-color: rgb(255, 255, 255);
     font-family: 'Rajdhani', sans-serif;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0); 
 }

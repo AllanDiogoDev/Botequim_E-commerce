@@ -1,11 +1,10 @@
 aside{
     width: 100%;
-    height: 360px;
-    
+    height: 370px;
 }
 
 aside h2{
-    color: rgba(255, 123, 0, 0.753);
+    color: rgb(240, 116, 0);
     font-family: 'Rajdhani', sans-serif;
     font-size: 2.0rem;
     text-shadow: 2px 1px rgba(0, 0, 0, 0.534);
@@ -22,12 +21,14 @@ aside h2{
     padding-top: 10px;
     margin-top: 10px;
     border-radius: 10px;
-    border: 4px solid black;
+    border: 3px solid black;  
 }
 
 .form{
     display: flex;
     flex-direction: column;
+    width: 500px;
+    height: 300px;
 }
 
 .pesquisa-input{
@@ -35,12 +36,12 @@ aside h2{
     width: 400px;
     height: 40px;
     margin-top:10px;
-    padding-left: 40px;
+    margin-left: 20px;
+    padding-left: 45px;
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.2rem;
     color: black;
     border: 1px solid black;
-    margin: 5px auto;
 }
 
 .busca-input{
@@ -54,4 +55,25 @@ aside h2{
     background-color: rgb(0, 0, 0);
     margin: 0px auto;
     margin-top: 30px;
+}
+
+.busca-input:hover{
+    background-color: rgb(151, 91, 1);
+    transition: 0.5s;
+}
+
+.icon-input{
+    width: 20px;
+    position: relative;
+    left:52px;
+    top: 4px;   
+}
+
+.display-flex{
+    display: flex;
+}
+
+.jacare{
+    margin-top: 20px;
+    margin-right: 10px;
 }
