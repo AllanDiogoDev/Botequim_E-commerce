@@ -1,0 +1,54 @@
+header{
+    background-color: rgba(0, 0, 0, 0.89);
+    height: 70px;
+    width: 100%;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.header-container{
+    height: 70px;
+    width: 1050px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-botequim{
+    width: 190px;
+    margin: 6px 25px 0px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+nav ul li{
+    text-align: center;
+    height: 20px;
+    margin-top: 10px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+}
+
+.itens-menu{
+    width: 40px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+
