@@ -3,7 +3,7 @@ import './header.css';
 
 export default function Header(){
     return ( 
-        <header>
+        <header id="botequim">
             <div className="header-container">
                 <figure>
                     <img className="logo-botequim" src="./imgs/Botequim-Logo.png" alt="Logo Botequim"/>
@@ -40,6 +40,7 @@ export default function Header(){
                     <figcaption class="hidden"> Icone Entrar na sua Conta</figcaption>
                 </figure>  
             </div>
+            <a className="btn" href="#botequim"></a>
         </header>
      );
 }
