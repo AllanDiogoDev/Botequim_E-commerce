@@ -29,16 +29,17 @@ export default function Header(){
                         </li>
                     </ul>  
                 </nav>
-                
-                <figure>
-                    <img className="itens-menu" src="./imgs/carrinho.png" alt="Icone Carrinho de Compras"/>
-                    <figcaption class="hidden"> Icone Carrinho de Compras </figcaption>
-                </figure>
-                    
-                <figure>
-                    <img className="itens-menu" src="./imgs/entrar.png" alt="Icone Entrar"/>
-                    <figcaption class="hidden"> Icone Entrar na sua Conta</figcaption>
-                </figure>  
+                <div className="icones">
+                    <figure>
+                        <img className="itens-menu" src="./imgs/carrinho.png" alt="Icone Carrinho de Compras"/>
+                        <figcaption class="hidden"> Icone Carrinho de Compras </figcaption>
+                    </figure>
+                        
+                    <figure>
+                        <img className="itens-menu2" src="./imgs/entrar.png" alt="Icone Entrar"/>
+                        <figcaption class="hidden"> Icone Entrar na sua Conta</figcaption>
+                    </figure>  
+                </div>
             </div>
             <a className="btn" href="#botequim"></a>
         </header>

@@ -1,75 +1,203 @@
-header{
-    background-color: rgba(0, 0, 0, 0.89);
-    height: 70px;
-    width: 100%;
+/* Tablet */
+@media screen and (min-width: 620px) {
 }
 
-.hidden{
-    visibility: hidden;
+/* Celular */
+@media screen and (max-width: 620px) {
+    header{
+        background-color: rgba(0, 0, 0, 0.89);
+        height: 70px;
+        width: 100%;
+    }
+
+    .hidden{
+        visibility: hidden;
+    }
+
+    .header-container{
+        height: 70px;
+        width: 65%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo-botequim{
+        width: 200px;
+        margin: 6px 21px 0px;
+    }
+
+    nav{
+        width: 50px;
+        height: 50px;
+        background-color: rgb(240, 128, 0);
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 8%;
+        background-image: url('./imgs/menu.png');
+        background-size: cover;
+    }
+
+    nav:hover{
+        cursor: pointer;
+    }
+
+    nav:hover ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: -50px;
+        z-index:1; 
+        position: absolute;
+    }
+
+    nav ul li:hover ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav ul li a:hover{
+        color: rgb(240, 128, 0);
+    }
+
+    nav ul{
+        display: none;
+        background-color: black;
+        width: 150px;
+        height: 140px;
+        border: 1px solid rgb(255, 136, 0);
+    }
+
+    .icones{
+        display: none;
+    }
+
+    nav ul li{
+        text-align: center;
+        height: 20px;
+        margin-top: 10px;
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li a{
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: #000;
+        text-decoration: none;
+    }
+    .btn::after {
+        content: "↑";
+        font-size: 32px;
+        font-weight: bold;
+        color: aliceblue;
+        transition: margin-top 250ms;
+    }
+    .btn:hover::after {
+        margin-top:-8px;
+    }
 }
 
-.header-container{
-    height: 70px;
-    width: 1050px;
-    margin: 0px auto;
-    display: flex;
-    flex-direction: row;
-}
+/* Computador */
+@media screen and (min-width: 991px) {
+    header{
+        background-color: rgba(0, 0, 0, 0.89);
+        height: 70px;
+        width: 100%;
+    }
 
-.logo-botequim{
-    width: 190px;
-    margin: 6px 25px 0px;
-}
+    .hidden{
+        visibility: hidden;
+    }
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    width: 650px;
-    height: 40px;
-    margin-top: 15px;
-}
+    .header-container{
+        height: 70px;
+        width: 95%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+    }
 
-nav ul li{
-    text-align: center;
-    height: 20px;
-    margin-top: 10px;
-    width: 150px;
-    align-items: center;
-    justify-content: center;
-}
+    .logo-botequim{
+        width: 190px;
+        margin: 6px 25px 0px;
+    }
 
-nav ul li a{
-    color: white;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1.2rem;
-}
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+        height: 40px;
+        margin: 0px auto;
+        margin-top: 15px;
+    }
 
-.itens-menu{
-    width: 40px;
-    cursor: pointer;
-    margin-top: 15px;
-    margin-left: 5px;
-}
+    .icones{
+        display: flex;
+    }
 
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
-    background-color: #000;
-    text-decoration: none;
-}
-.btn::after {
-    content: "↑";
-    font-size: 32px;
-    font-weight: bold;
-    color: aliceblue;
-    transition: margin-top 250ms;
-}
-.btn:hover::after {
-    margin-top:-8px;
+    nav ul li{
+        text-align: center;
+        height: 20px;
+        margin-top: 10px;
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li a{
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    .itens-menu{
+        width: 40px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-left: 35px;
+    }
+
+    .itens-menu2{
+        width: 40px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: #000;
+        text-decoration: none;
+    }
+    .btn::after {
+        content: "↑";
+        font-size: 32px;
+        font-weight: bold;
+        color: aliceblue;
+        transition: margin-top 250ms;
+    }
+    .btn:hover::after {
+        margin-top:-8px;
+    }
 }

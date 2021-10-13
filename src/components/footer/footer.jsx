@@ -30,7 +30,7 @@ export default function Footer(){
             <section className="section-2">
                 <div className="criador-div">
                     <div>
-                        <h2 className="h2-criador">Criado por Allan Diogo <span>&#129333;&#127996;</span></h2>
+                        <h2 className="h2-criador"> Design criado por Allan Diogo <span>&#129333;&#127996;</span></h2>
                         <h2 className="h3-criador">Campinas - 2021  &#9749;</h2>
                     </div>
                 </div>
