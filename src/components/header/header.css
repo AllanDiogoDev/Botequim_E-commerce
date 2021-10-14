@@ -8,6 +8,11 @@
         background-color: rgba(0, 0, 0, 0.89);
         height: 70px;
         width: 100%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .hidden{
@@ -16,16 +21,6 @@
 
     html{
         scroll-behavior: smooth;
-    }
-
-    .header-container{
-        height: 70px;
-        width: 85%;
-        margin: 0px auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
 
     .logo-botequim{
@@ -118,18 +113,13 @@
         background-color: rgba(0, 0, 0, 0.89);
         height: 70px;
         width: 100%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
     }
 
     .hidden{
         visibility: hidden;
-    }
-
-    .header-container{
-        height: 70px;
-        width: 95%;
-        margin: 0px auto;
-        display: flex;
-        flex-direction: row;
     }
 
     .logo-botequim{
