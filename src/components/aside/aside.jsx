@@ -8,11 +8,11 @@ export default function Aside(){
             <div className="container-aside">
                 <form className="form"> 
                     <h2> Fique por dentro de todas ofertas com exclusividade! </h2>
-                    <a href>
+                    <a className="a" href>
                         <img className="icon-input" src="./imgs/user-icon.png" alt="icone usuario" />
                         <input className="pesquisa-input" type="text" placeholder="Nome" />
                     </a>
-                    <a href>
+                    <a className="a" href>
                         <img className="icon-input" src="./imgs/email-icon.png" alt="icone email" />
                         <input className="pesquisa-input" type="text" placeholder="Email" />
                     </a>
