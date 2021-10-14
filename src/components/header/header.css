@@ -1,9 +1,9 @@
 /* Tablet */
-@media screen and (min-width: 620px) {
+@media only screen and (min-width: 574px){
 }
 
 /* Celular */
-@media screen and (max-width: 620px) {
+@media only screen and (max-width: 574px){
     header{
         background-color: rgba(0, 0, 0, 0.89);
         height: 70px;
@@ -110,6 +110,22 @@
         margin-top:-8px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Computador */
 @media screen and (min-width: 991px) {
