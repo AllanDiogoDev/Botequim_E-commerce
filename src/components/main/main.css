@@ -1,13 +1,12 @@
 /* Tablet */
-@media screen and (min-width: 620px) {
+@media only screen and (min-width: 574px){
 }
 
 /* Celular */
-@media screen and (max-width: 620px) {
+@media only screen and (max-width: 574px){
     main{
         width: 100%;
         height: 800px;
-        background-color: red;
         padding-top: 30px;
         background: url('./background/background.png');
         background-size: 100%; 
@@ -17,48 +16,51 @@
 
     .titulo-main-container{
         width: 85%;
-        height: 70px;
+        height: 60px;
+        margin: 0px auto;
         display: flex;
         flex-direction: row;
-        margin: 0px auto;
+        justify-content: center;
+        align-items: center;
     }
 
     .icone-titulo-main{
-        width: 50px; 
-        position: relative;
-        top: 3px;
-        left:30%;
+        width: 40px; 
         -webkit-filter: drop-shadow(3px 3px 3px #222);
         filter: drop-shadow(3px 3px 3px #222);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
     }
 
     .titulo-h1-main{
         color: white;
         font-family: 'Rajdhani', sans-serif;
-        font-size: 2.7rem;
+        font-size: 2.2rem;
         text-shadow: 2px 1px rgb(0, 0, 0);
-        margin-top: 0px;
     }
 
     .titulo-h2-main{
         color: black;
         font-family: 'Rajdhani', sans-serif;
-        font-size: 2.7rem;
-        margin-left: 20px;
+        font-size: 2.2rem;
         text-shadow: 1px 1px rgba(167, 167, 167, 0.719);
     }
 
     .input-main-container{
-        width: 400px;
+        width: 90%;
         height: 70px;
         display: flex;
         flex-direction: row;
         margin: 0px auto;
+        justify-content: center;
+        align-items: center;
     }
 
     .pesquisar-input{
         border: none;
-        width: 300px;
+        width: 310px;
         height: 40px;
         margin-top:10px;
         padding-left: 10px;
@@ -68,7 +70,7 @@
     }
 
     .buscar-input{
-        width: 75px;
+        width: 82px;
         height: 40px;
         border:none;
         margin-left: 10px;
@@ -92,16 +94,16 @@
         display: flex;
         flex-direction: column;
         width: 50%;
-        margin-top: 15px;
         height: 550px;
         padding-bottom: 20px;
+        justify-content: center;
+        align-items: center;
         
     }
 
     .prateleira-produto{
-        width: 210px;
-        height: 160px;
-        margin-left: 10px;
+        width: 180px;
+        height: 150px;
         margin-top: 10px;
         background-color: rgba(255, 255, 255, 0.582);
         border-radius: 5px;
@@ -125,10 +127,10 @@
 
     .prateleira-img{
         width: 100px;
-        position: relative;
-        margin-left: 50px;
-        margin-top: 27px;
-        cursor:pointer;
+        display: flex;
+        flex-direction: row;
+        margin: 0px auto;
+        margin-top: 23px;
     }
 
     .prateleira-img:hover {
