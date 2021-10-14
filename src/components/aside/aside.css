@@ -9,6 +9,11 @@
         height: 530px;
     }
     
+    html{
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+    
     aside h2{
         color: rgb(0, 0, 0);
         font-family: 'Rajdhani', sans-serif;

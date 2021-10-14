@@ -14,6 +14,11 @@
         background-size:cover;
     }
 
+    html{
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+
     .titulo-main-container{
         width: 85%;
         height: 60px;

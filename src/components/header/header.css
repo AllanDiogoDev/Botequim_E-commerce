@@ -14,6 +14,11 @@
         visibility: hidden;
     }
 
+    html{
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+
     .header-container{
         height: 70px;
         width: 85%;
